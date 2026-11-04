@@ -1,0 +1,11 @@
+# Private files: never published (see AGENTS.md)
+private/
+
+# Source CV contains phone number and email; keep it off GitHub
+Resume Mateo Abella.pdf
+
+# Full-size original photo; the site uses the web copy images/headshot.jpg
+Formal.jpg
+
+# Local agent settings
+.claude/
