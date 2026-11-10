@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · Mateo Abella</title>
+  <meta name="description" content="Side projects by Mateo Abella: AI expense tracking, an elevation-first NYC bike map, a Google Drive gallery, and XLKitLearn documentation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- ================= NAV ================= -->
+  <nav class="nav" aria-label="Main">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="monogram">MA</span><span class="name">Mateo Abella</span></a>
+      <ul>
+        <li><a href="index.html#education">Education</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a class="cta" href="https://www.linkedin.com/in/mateoabella/" target="_blank" rel="noopener">Let's connect</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-head">
+      <div class="wrap">
+        <a class="back" href="index.html">← Back home</a>
+        <div class="kicker">Projects</div>
+        <h1>Things I build on the side</h1>
+        <p class="lead">
+          Small products I've built to solve my own problems, mostly with AI-assisted prototyping,
+          plus an Excel machine-learning tool used in Columbia Business School classes that I'm helping document.
+        </p>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="wrap">
+        <div class="gallery">
+
+          <!-- Gatsby -->
+          <article class="card project" id="gatsby">
+            <div class="shot"><img src="images/projects/gatsby.jpg" alt="Gatsby landing screen: Know where your money goes" loading="lazy" width="1200" height="750"></div>
+            <div class="project-body">
+              <div class="project-tags"><span class="tag">Personal project</span><span class="tag ai">AI</span></div>
+              <h2>Gatsby: AI Expense Intelligence</h2>
+              <p>Upload bank-statement PDFs from any bank and Claude reads, extracts and categorizes every transaction into a clean dashboard, with monthly trends, a category breakdown and inline fixes for any misclassification.</p>
+              <div class="pills">
+                <span class="pill">React</span><span class="pill">Vite</span><span class="pill">Claude API</span><span class="pill">PDF parsing</span>
+              </div>
+              <div class="project-links">
+                <span class="note">🔒 Private repo · demo on request</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Hillseeker / Biker Map -->
+          <article class="card project" id="biker-map">
+            <div class="shot"><img src="images/projects/biker-map.jpg" alt="Hillseeker: dark map of New York City with route search" loading="lazy" width="1200" height="750"></div>
+            <div class="project-body">
+              <div class="project-tags"><span class="tag">Personal project</span><span class="tag ai">AI</span></div>
+              <h2>Hillseeker: NYC Bike Map</h2>
+              <p>An elevation-first bike router for New York. Enter a start and destination and it compares routes by total climb and a hill score, then adds an AI tip about the hills on that exact stretch.</p>
+              <div class="pills">
+                <span class="pill">JavaScript</span><span class="pill">Leaflet</span><span class="pill">Elevation data</span><span class="pill">Claude API</span>
+              </div>
+              <div class="project-links">
+                <span class="note">🛠 Live demo being fixed · back soon</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Drive Gallery -->
+          <article class="card project" id="drive-gallery">
+            <div class="shot"><img src="images/projects/drive-gallery.jpg" alt="Drive Gallery sign-in screen" loading="lazy" width="1200" height="750"></div>
+            <div class="project-body">
+              <div class="project-tags"><span class="tag">Personal project</span></div>
+              <h2>Drive Gallery</h2>
+              <p>A clean, read-only gallery for the photos and videos in your Google Drive. Sign in with Google and browse folders like an album; nothing can be edited or deleted.</p>
+              <div class="pills">
+                <span class="pill">React</span><span class="pill">Vite</span><span class="pill">Google OAuth</span><span class="pill">Drive API</span>
+              </div>
+              <div class="project-links">
+                <a class="btn primary" href="https://drive-gallery-ten.vercel.app" target="_blank" rel="noopener">Try it live ↗</a>
+                <span class="note">🔒 Private repo</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- XLKitLearn -->
+          <article class="card project" id="xlkitlearn">
+            <div class="shot"><img src="images/projects/xlkitlearn-docs.jpg" alt="XLKitLearn user manual home page" loading="lazy" width="1200" height="750"></div>
+            <div class="project-body">
+              <div class="project-tags"><span class="tag contrib">Contributor · Documentation</span></div>
+              <h2>XLKitLearn</h2>
+              <p>An Excel add-in that brings Python and scikit-learn into Excel: regressions, boosted trees, random forests and text analytics, used in Columbia Business School classes. Created by Daniel Guetta. <strong>I'm helping write the documentation.</strong></p>
+              <div class="pills">
+                <span class="pill">Excel add-in</span><span class="pill">Python</span><span class="pill">scikit-learn</span><span class="pill">Docs</span>
+              </div>
+              <div class="project-links">
+                <a class="btn primary" href="https://docs.xlkitlearn.com/" target="_blank" rel="noopener">Read the docs ↗</a>
+                <a class="btn" href="https://xlkitlearn.com/" target="_blank" rel="noopener">xlkitlearn.com</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Mateo Abella · Built with plain HTML &amp; CSS</span>
+      <span class="credits">Screenshots are of each project. XLKitLearn is created and maintained by Daniel Guetta.</span>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Back to top">↑</a>
+</body>
+</html>
